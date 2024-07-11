@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="VisAge">
+    <file>VisualizzaAgenda.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="vistaCliente">
+    <file>VisualizzaCliente.png</file>
+  </qresource>
+</RCC>

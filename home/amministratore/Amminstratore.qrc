@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="Amm">
+    <file>homeAmministratore.png</file>
+  </qresource>
+</RCC>

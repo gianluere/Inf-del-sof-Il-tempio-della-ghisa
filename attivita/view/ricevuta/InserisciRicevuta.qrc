@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="InsRic">
+    <file>InserisciRicevuta.png</file>
+  </qresource>
+</RCC>

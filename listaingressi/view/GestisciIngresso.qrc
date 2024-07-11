@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="GesIngre">
+    <file>GestisciIngresso.png</file>
+  </qresource>
+</RCC>

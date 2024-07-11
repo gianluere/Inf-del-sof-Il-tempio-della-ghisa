@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="InsCors">
+    <file>InserisciCorso.png</file>
+  </qresource>
+</RCC>

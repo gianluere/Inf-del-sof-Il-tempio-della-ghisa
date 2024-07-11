@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1111</width>
+    <height>716</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1111</width>
+    <height>716</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1111</width>
+    <height>716</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Vista Inserisci Nutrizionista</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1111</width>
+     <height>716</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>InserimentoNuovoNutrizionista.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="id">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>115</y>
+     <width>267</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: lightgrey;
+color: black;
+border-radius: 15px;
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nome">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>165</y>
+     <width>267</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: lightgrey;
+color: black;
+border-radius: 15px;
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cognome">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>225</y>
+     <width>267</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: lightgrey;
+color: black;
+border-radius: 15px;
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="codiceFiscale">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>285</y>
+     <width>267</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: lightgrey;
+color: black;
+border-radius: 15px;
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dataDiNascita">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>345</y>
+     <width>267</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: lightgrey;
+color: black;
+border-radius: 15px;
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="eta">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>398</y>
+     <width>267</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: lightgrey;
+color: black;
+border-radius: 15px;
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="telefono">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>458</y>
+     <width>267</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: lightgrey;
+color: black;
+border-radius: 15px;
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="email">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>520</y>
+     <width>267</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: lightgrey;
+color: black;
+border-radius: 15px;
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="licenza">
+   <property name="geometry">
+    <rect>
+     <x>525</x>
+     <y>574</y>
+     <width>267</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: lightgrey;
+color: black;
+border-radius: 15px;
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_conferma">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>627</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: lightgrey;
+color: black;
+border-radius: 15px;
+</string>
+   </property>
+   <property name="text">
+    <string>CONFERMA</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="InserimentoNutrizionista.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="InserClie">
+    <file>InserimentoNuovoCliente.png</file>
+  </qresource>
+</RCC>

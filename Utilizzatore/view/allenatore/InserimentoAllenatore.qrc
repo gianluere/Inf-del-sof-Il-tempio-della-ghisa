@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="InsAll">
+    <file>InserimentoNuovoAllenatore.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1025</width>
+    <height>679</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1025</width>
+    <height>679</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1025</width>
+    <height>679</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Gestione Diete</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1025</width>
+     <height>679</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>GestioneDiete.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_selezionaFile">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>370</y>
+     <width>181</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: lightgrey;
+color: black;
+border-radius:20px;</string>
+   </property>
+   <property name="text">
+    <string>SELEZIONA FILE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="id">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>310</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: lightgrey;
+color: black;
+border-radius: 15px;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="GestioneDiete.qrc"/>
+ </resources>
+ <connections/>
+</ui>

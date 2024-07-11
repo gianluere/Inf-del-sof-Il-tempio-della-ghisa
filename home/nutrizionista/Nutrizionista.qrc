@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="Nutri">
+    <file>homeNutrizionista.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="InsNutri">
+    <file>InserimentoNuovoNutrizionista.png</file>
+  </qresource>
+</RCC>

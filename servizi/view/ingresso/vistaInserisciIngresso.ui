@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InserisciIngresso</class>
+ <widget class="QWidget" name="InserisciIngresso">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>903</width>
+    <height>588</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>903</width>
+    <height>588</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>903</width>
+    <height>588</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Inserisci Ingresso</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>903</width>
+     <height>588</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>InserisciIngresso.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_conferma">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>415</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:black;
+background-color: lightgrey;
+border-radius: 15px;</string>
+   </property>
+   <property name="text">
+    <string>CONFERMA</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="id">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>210</y>
+     <width>225</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black;
+border-radius:15px;
+background-color: lightgrey;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="codiceFiscale">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>254</y>
+     <width>225</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black;
+border-radius:15px;
+background-color: lightgrey;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="data">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>300</y>
+     <width>225</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black;
+border-radius:15px;
+background-color: lightgrey;</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="abbonato">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>357</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="InserisciIngresso.qrc"/>
+ </resources>
+ <connections/>
+</ui>

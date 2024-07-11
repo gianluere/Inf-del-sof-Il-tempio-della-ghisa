@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="InsVis">
+    <file>InserisciVisita.png</file>
+  </qresource>
+</RCC>

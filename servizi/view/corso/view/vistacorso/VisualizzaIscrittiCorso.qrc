@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="VisIsCors">
+    <file>VisualizzaIscrittiCorso.png</file>
+  </qresource>
+</RCC>

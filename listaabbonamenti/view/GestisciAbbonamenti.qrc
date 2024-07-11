@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="GesAbb">
+    <file>GestisciAbbonamento.png</file>
+  </qresource>
+</RCC>

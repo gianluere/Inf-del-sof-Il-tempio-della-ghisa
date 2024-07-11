@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="InsIngre">
+    <file>InserisciIngresso.png</file>
+  </qresource>
+</RCC>

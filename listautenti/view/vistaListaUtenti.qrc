@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="vistaListaUtenti">
+    <file>visulizzaListaUtenti.png</file>
+  </qresource>
+</RCC>

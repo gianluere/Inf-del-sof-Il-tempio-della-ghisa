@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1169</width>
+    <height>736</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1169</width>
+    <height>736</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1169</width>
+    <height>736</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Home Cliente</string>
+  </property>
+  <widget class="QPushButton" name="button_visualizzaScheda">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>60</y>
+     <width>291</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black;
+background-color: white;
+border-radius: 20px;
+</string>
+   </property>
+   <property name="text">
+    <string>VISUALIZZA SCHEDA</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_visualizzaAgenda">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>60</y>
+     <width>291</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black;
+background-color: white;
+border-radius: 20px;
+</string>
+   </property>
+   <property name="text">
+    <string>VISUALIZZA AGENDA</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_richiestaSospensioneAbbonamento">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>370</y>
+     <width>291</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black;
+background-color: white;
+border-radius: 20px;
+</string>
+   </property>
+   <property name="text">
+    <string>RICHISTA SOSPENSIONE 
+ ABBONAMENTO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_visualizzaDieta">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>370</y>
+     <width>291</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black;
+background-color: white;
+border-radius: 20px;
+</string>
+   </property>
+   <property name="text">
+    <string>VISUALIZZA DIETA</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1169</width>
+     <height>736</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>homeCliente.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_logout">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>610</y>
+     <width>161</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: black;
+background-color: white;
+border-radius: 20px;
+</string>
+   </property>
+   <property name="text">
+    <string>ABBANDONA 
+ IL TEMPIO</string>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>button_visualizzaScheda</zorder>
+  <zorder>button_visualizzaDieta</zorder>
+  <zorder>button_visualizzaAgenda</zorder>
+  <zorder>button_richiestaSospensioneAbbonamento</zorder>
+  <zorder>button_logout</zorder>
+ </widget>
+ <resources>
+  <include location="Cliente.qrc"/>
+ </resources>
+ <connections/>
+</ui>
